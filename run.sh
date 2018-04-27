@@ -1,4 +1,7 @@
 #!/bin/sh
+
+### to do : start services by supervisord and remove extra commands
+
 chown -R vmail /var/vmail
 chown -R www-data /var/www/html/
 chown -R mysql /var/lib/mysql
